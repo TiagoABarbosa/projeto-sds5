@@ -7,7 +7,7 @@ function App() {
     <>
       <NavBar />
       <div className="container">
-        <h1 className="text-primary">Semana Sprint React - DevSuperior.</h1>
+        <h1 className="text-primary">Semana Sprint React - DR Vendas</h1>
         <DataTable />
       </div>
       <Footer />
