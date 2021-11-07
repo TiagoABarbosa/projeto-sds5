@@ -1,9 +1,9 @@
-import ImgDsDark from "assets/img/ds-dark.png";
 import BarChart from "components/BarChart";
 import DataTable from "components/DataTable";
 import DonutChart from "components/DonutChart";
 import Footer from "components/Footer";
 import NavBar from "components/NavBar";
+import { Link } from "react-router-dom";
 
 const Dashboard = () => {
   return (
@@ -30,6 +30,9 @@ const Dashboard = () => {
         </div>
 
         <DataTable />
+        <Link className="btn btn-warning btn-lg=" to="/">
+              Retornar a Home
+          </Link>
       </div>
       <Footer />
     </>
