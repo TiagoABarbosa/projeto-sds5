@@ -30,9 +30,6 @@ const Dashboard = () => {
         </div>
 
         <DataTable />
-        <Link className="btn btn-warning btn-lg=" to="/">
-              Retornar a Home
-          </Link>
       </div>
       <Footer />
     </>
